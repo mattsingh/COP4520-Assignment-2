@@ -27,6 +27,8 @@ java Minotaur
 
 You can change the number of guests by altering the value of the `NUM_GUESTS` variable in the `Minotaur.java` file.
 
+You can also change the speed of the simulation by altering the value of the `TIME_MULTIPLIER` variable in the `Minotaur.java` file. This is multiplied to every `Thread.sleep()` call in the program. It is currently set to 0 so that the simulation does not sleep at all.
+
 ## Problem 2
 ### Strategy
 
@@ -47,3 +49,5 @@ java Party
 You can change the number of guests by altering the value of the `NUM_GUESTS` variable in the `Party.java` file.
 
 You can also change the duration of the party by altering the value of the `PARTY_DURATION_SECONDS` variable in the `Party.java` file.
+
+You can also change the speed of the simulation by altering the value of the `TIME_MULTIPLIER` variable in the `Party.java` file. This is multiplied to every `Thread.sleep()` call in the program.
