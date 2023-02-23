@@ -25,6 +25,8 @@ javac Minotaur.java Guest.java
 java Minotaur
 ```
 
+You can change the number of guests by altering the value of the `NUM_GUESTS` variable in the `Minotaur.java` file.
+
 ## Problem 2
 ### Strategy
 
@@ -41,4 +43,7 @@ cd "Problem 2"
 javac Party.java Guest.java
 java Party
 ```
-```
+
+You can change the number of guests by altering the value of the `NUM_GUESTS` variable in the `Party.java` file.
+
+You can also change the duration of the party by altering the value of the `PARTY_DURATION_SECONDS` variable in the `Party.java` file.
